@@ -16,16 +16,7 @@ const fs = require("fs-extra");
 const { Boom } = require("@hapi/boom");
 const PORT = process.env.PORT ||  5000
 const MESSAGE = process.env.MESSAGE ||  `
-┌───⭓『
-❒ *WASI-MD*
-❒ _NOW DEPLOY IT_
-└────────────⭓
-┌───⭓
-❒  • Chat with owner •
-❒ *GitHub:* __https://github.com/WASI-MD_
-❒ *Author:* _wa.me/923192173398_
-❒ *YT:* _https://youtube.com/@wasitech10_
-└────────────⭓
+
 `
 
 
